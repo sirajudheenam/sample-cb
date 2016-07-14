@@ -1,1 +1,1 @@
-default['sample-cb']['greeting'] = 'hello world'
+default['sample-cb']['greeting'] = "helloworld"

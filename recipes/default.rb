@@ -7,7 +7,6 @@
 # All rights reserved - Do Not Redistribute
 #
 
-template '/etc/hello.txt' do
-  source 'hello.txt.erb'
-  only_if { node['sample-cb']['greeting'] == 'hello'}
+template "hello.txt" do
+  source "hello.txt.erb"
 end
