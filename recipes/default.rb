@@ -10,3 +10,5 @@
 template "hello.txt" do
   source "hello.txt.erb"
 end
+
+log "Executing sample-cb"
