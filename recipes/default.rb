@@ -7,8 +7,8 @@
 # All rights reserved - Do Not Redistribute
 #
 
-template "hello.txt" do
-  source "hello.txt.erb"
+template "/tmp/info.txt" do
+  source "info.txt.erb"
 end
 
 log "Executing sample-cb"
