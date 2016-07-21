@@ -13,4 +13,4 @@ end
 
 log "Executing sample-cb"
 
-include 'sample-cb::resources'
+include_recipe "#{cookbook_name}::resources"
