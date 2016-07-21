@@ -9,4 +9,7 @@
 case node['platform']
 when 'redhat','centos'
     yum_package 'nginx'
+    service 'nginx' do
+      action [:enble, :start]
+    end
 end
