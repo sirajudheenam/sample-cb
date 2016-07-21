@@ -6,21 +6,7 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-case [:platform]
+case node['platform']
 when 'redhat','centos'
-yum_package 'nginx' do
-  #allow_downgrade            TrueClass, FalseClass
-  #arch                       String, Array
-  #flush_cache                Array
-  #notifies                   # see description
-  #options                    String
-  #package_name               String, Array # defaults to 'name' if not specified
-  #provider                   Chef::Provider::Package::Yum
-  #source                     String
-  #subscribes                 # see description
-  #timeout                    String, Integer
-  #version                    String, Array
-  action                     :install #Symbol # defaults to :install if not specified
-end
-
+    yum_package 'nginx'
 end
