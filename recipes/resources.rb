@@ -22,3 +22,5 @@ yum_package 'nginx' do
   #version                    String, Array
   action                     :install #Symbol # defaults to :install if not specified
 end
+
+end
