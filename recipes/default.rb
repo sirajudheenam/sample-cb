@@ -12,3 +12,5 @@ template "/tmp/info.txt" do
 end
 
 log "Executing sample-cb"
+
+include 'sample-cb::resources'
